@@ -212,9 +212,7 @@ def war(playerA_Deck,playerB_Deck,wars,hands):
 
 while (gameWon == False):
     playerA_Deck, playerB_Deck, playerAWins, playerBWins, gameWon, hands, winner, wars = compare(playerA_Deck, playerB_Deck, playerAWins, playerBWins, [], gameWon, hands, winner, wars)
-# if hands == 100000:
-#     print("Game exited after 100000 hands")
-# else:    
+  
 print(playerA_Deck,playerB_Deck)
 print(str(winner) + " won the game after " + str(hands) + " hands")
 print("There were " + str(wars) + " wars \nPlayer A won " + str(playerAWins) + " hands")
